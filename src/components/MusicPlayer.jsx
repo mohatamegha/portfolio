@@ -9,38 +9,38 @@ import {
 
 const songs = [
   {
-    title: "It Ain't Me",
-    artist: "Kygo & Selena Gomez",
+    title: "Sailor",
+    artist: "Gigi Perez",
     embed:
-      "https://open.spotify.com/embed/track/7BKLCZ1jbUBVqRi2FVlTVw?utm_source=generator",
+      "https://open.spotify.com/embed/track/2262bWmqomIaJXwCRHr13j?utm_source=generator",
   },
 
   {
-    title: "Stupid",
-    artist: "Tate McRae",
+    title: "Juice",
+    artist: "Lizzo",
     embed:
-      "https://open.spotify.com/embed/track/3jjujdWJ72nww5eGnfs2E7?utm_source=generator",
+      "https://open.spotify.com/embed/track/0k664IuFwVP557Gnx7RhIl?utm_source=generator",
   },
 
   {
-    title: "Ahista",
-    artist: "Pankaj Udhas",
+    title: "Bairan",
+    artist: "Banjaree",
     embed:
-      "https://open.spotify.com/embed/track/0f9XJ7w0t4QwqzvWlA9dQf?utm_source=generator",
+      "https://open.spotify.com/embed/track/0RsH8g8DxdYZgdGcod5I36?utm_source=generator",
   },
 
   {
-    title: "Like I Can",
-    artist: "Sam Smith",
+    title: "Somebody to youu",
+    artist: "The banners",
     embed:
-      "https://open.spotify.com/embed/track/0zMAvsQmaQ4DGsmXtKixpn?utm_source=generator",
+      "https://open.spotify.com/embed/track/14BH4qO7pgCmIe6mgLKOK3?utm_source=generator",
   },
 
   {
-    title: "Kasoor",
-    artist: "Prateek Kuhad",
+    title: "Tere Naina",
+    artist: "Shankar Ehsan Loy",
     embed:
-      "https://open.spotify.com/embed/track/76vZsA2mBdeSS2E6jR2R8k?utm_source=generator",
+      "https://open.spotify.com/embed/track/3hoXhwP0ub9LdSJV4olDIc?utm_source=generator",
   },
 ];
 

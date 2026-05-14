@@ -36,12 +36,12 @@ const socials = [
     href: "https://www.linkedin.com/in/megha-mohata-806431254/",
   },
 
-  {
-    icon: FaInstagram,
-    label: "instagram",
-    value: "@megha.jpg",
-    href: "https://instagram.com",
-  },
+  // {
+  //   icon: FaInstagram,
+  //   label: "instagram",
+  //   value: "@megha.jpg",
+  //   href: "https://instagram.com",
+  // },
 
   {
     icon: SiLeetcode,

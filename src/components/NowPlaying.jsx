@@ -13,7 +13,7 @@ const tracks = [
     a: "Kygo & Selena Gomez",
     c: "#ffb3c7",
     link:
-      "https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVw",
+      "https://open.spotify.com/track/3eR23VReFzcdmS7TYCrhCe",
   },
 
   {
@@ -21,7 +21,7 @@ const tracks = [
     a: "Tate McRae",
     c: "#d9b8ff",
     link:
-      "https://open.spotify.com/track/3jjujdWJ72nww5eGnfs2E7",
+      "https://open.spotify.com/track/4k3uABcX9iaGlt5pRJhumi",
   },
 
   {
@@ -29,7 +29,7 @@ const tracks = [
     a: "Pankaj Udhas",
     c: "#ffd6a5",
     link:
-      "https://open.spotify.com/",
+      "https://open.spotify.com/track/3GIxNehfNB1vsDCTWBoGiU/",
   },
 
   {
@@ -37,7 +37,7 @@ const tracks = [
     a: "Sam Smith",
     c: "#bde0fe",
     link:
-      "https://open.spotify.com/track/0zMAvsQmaQ4DGsmXtKixpn",
+      "https://open.spotify.com/track/2TeLIzFBe3hxkPR5FIQZut",
   },
 
   {
@@ -45,7 +45,7 @@ const tracks = [
     a: "Prateek Kuhad",
     c: "#caffbf",
     link:
-      "https://open.spotify.com/track/76vZsA2mBdeSS2E6jR2R8k",
+      "https://open.spotify.com/track/08kTa3SL9sV6Iy8KLKtGql",
   },
 ];
 
