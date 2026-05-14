@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@import "tailwindcss";
+:root {
+  --bubblegum: #ff8fb7;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background: linear-gradient(
+    180deg,
+    #fff7fb,
+    #fff1f7
+  );
+  color: #43253a;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: "DM Serif Display", serif;
+}
+
+.font-mono {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.text-gradient {
+  background: linear-gradient(
+    135deg,
+    #ff6ca8,
+    #9f7aea
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-girly {
+  background: linear-gradient(
+    135deg,
+    #ff9ac6,
+    #d6a3ff,
+    #a5cfff
+  );
+}
+
+.shadow-soft {
+  box-shadow:
+    0 10px 40px -12px rgba(255, 120, 180, 0.25);
+}
+
+.shadow-card {
+  box-shadow:
+    0 4px 20px -4px rgba(80, 20, 60, 0.12);
+}
+
+.sticker {
+  transition:
+    transform 0.25s cubic-bezier(.34,1.56,.64,1),
+    box-shadow 0.25s;
+}
+
+.sticker:hover {
+  transform:
+    translateY(-4px)
+    rotate(-1deg);
+}
+
+.marker {
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 170, 210, 0.6),
+    rgba(210, 180, 255, 0.6)
+  );
+
+  background-repeat: no-repeat;
+  background-size: 100% 0.55em;
+  background-position: 0 88%;
+  padding: 0 2px;
+}
+
+.squiggle {
+  text-decoration: underline wavy #ff8fb7;
+  text-underline-offset: 6px;
+}
+
+.polaroid {
+  background: white;
+  padding: 14px 14px 56px;
+  box-shadow:
+    0 18px 40px -16px rgba(80, 20, 60, 0.25),
+    0 4px 10px -2px rgba(80, 20, 60, 0.12);
+}
+
+.tape {
+  position: absolute;
+  background: rgba(255, 245, 200, 0.7);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  backdrop-filter: blur(2px);
+}
+
+.iletter {
+  display: inline-block;
+  transition:
+    transform .35s cubic-bezier(.34,1.56,.64,1),
+    color .25s;
+}
+
+.iword:hover .iletter {
+  color: #ff6ca8;
+}
+
+.iword:hover .iletter {
+  transform:
+    translateY(-6px)
+    rotate(-4deg);
+}
+
+.iword:hover .iletter:nth-child(2n) {
+  transform:
+    translateY(-10px)
+    rotate(6deg);
+}
+
+@keyframes floatSlow {
+  0%,100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float-slow {
+  animation:
+    floatSlow 6s ease-in-out infinite;
+}
+
+.animate-blob {
+  animation:
+    blob 12s ease-in-out infinite;
+}
+
+@keyframes blob {
+  0%,100% {
+    transform: translate(0,0) scale(1);
+  }
+
+  50% {
+    transform: translate(20px,-10px) scale(1.05);
+  }
+}
+
+@keyframes wavePaw {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-12deg);
+  }
+
+  50% {
+    transform: rotate(8deg);
+  }
+
+  75% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.group:hover .cat-paw {
+  animation: wavePaw 1s ease-in-out;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.75);
+  }
+}
