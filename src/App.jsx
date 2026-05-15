@@ -10,6 +10,7 @@ import { NowPlaying } from './components/NowPlaying'
 import { Quotes } from './components/Quotes'
 import { Contact } from './components/Contact'
 import { Cursor } from './components/Cursor'
+import { Projects } from './components/Projects'
 
 function App() {
   return <>
@@ -18,6 +19,7 @@ function App() {
     <Hero/>
     <About/>
     <Education/>
+    <Projects/>
     <Interests/>
     {/* <VisionBoard/> */}
     <MusicPlayer/>
