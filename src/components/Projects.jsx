@@ -323,9 +323,7 @@ export function Projects() {
                   </div>
 
                   {/* content */}
-                  <div className={`relative z-10 p-7 ${
-                    project.note ? "pr-[290px]" : ""
-                  }`}>
+                  <div className="relative z-10 p-7">
                     {/* top */}
                     <div className="flex items-start justify-between gap-5">
                       <div className="flex items-start gap-4">
@@ -338,7 +336,7 @@ export function Projects() {
                             {project.title}
                           </h3>
 
-                          <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-primary mt-2">
+                          <div className="font-mono text-[9px] uppercase tracking-[0.16em] text-primary mt-2 whitespace-nowrap overflow-hidden text-ellipsis">
                             {project.stack}
                           </div>
                         </div>
@@ -365,7 +363,7 @@ export function Projects() {
                     </div>
 
                     {project.note && (
-                      <div className="absolute right-6 top-7">
+                      <div className="absolute right-5 top-5 z-20 pointer-events-none">
                         {/* tape */}
                         <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-20">
                           <div className="w-20 h-5 rounded-sm bg-pink-200/70 border border-pink-100 rotate-[-2deg]" />
@@ -375,12 +373,12 @@ export function Projects() {
                         <div
                           className="
                             relative
-                            w-[250px]
+                            w-[170px]
                             bg-[#f7ecff]/95
                             border border-purple-100
                             rounded-[1rem]
-                            px-6
-                            py-5
+                            px-4
+                            py-4
                             shadow-[0_15px_30px_rgba(0,0,0,0.08)]
                           "
                         >
@@ -397,9 +395,9 @@ export function Projects() {
                           <p
                             className="
                               font-['Pacifico']
-                              text-[0.85rem]
+                              text-[0.72rem]
                               text-[#7a6890]
-                              pr-6
+                              pr-3
                             "
                           >
                             {project.note}
